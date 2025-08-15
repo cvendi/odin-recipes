@@ -1,0 +1,41 @@
+
+html {
+    background-color: rgb(39, 55, 71);
+    height: 100%;
+}
+
+.recipe-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+img {
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.recipe-header {
+    font-size: 20px;
+    max-width: 35%;
+    color: white;
+}
+
+.recipe-header h1 {
+    color: aqua;
+}
+
+.recipe-steps {
+    position: justified;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    color: white;
+}
+
+.recipe-steps h2 {
+    color: aqua;
+}
