@@ -6,36 +6,55 @@ html {
 
 .recipe-intro {
     display: flex;
+    padding: 50px;
+    gap: 25px;
     align-items: center;
     justify-content: center;
-    padding-top: 5%;
+    flex-wrap: wrap;
 }
 
-img {
-    max-width: 75%;
-    max-height: 75%;
-    border-radius: 10px;
-    margin-left: 10%;
+.recipe-intro .finished-dish {
+    width: 400px;
+    border-radius: 20px;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
 }
 
-.recipe-header {
-    font-size: 20px;
-    max-width: 35%;
+.recipe-intro .recipe-header {
+    font-size: 14px;
+    width: 25%;
     color: white;
+    flex: 1 1 320px;
 }
 
 .recipe-header h1 {
     color: aqua;
 }
 
-.recipe-steps {
-    position: justified;
-    margin: auto;
-    width: 75%;
-    height: 75%;
+.recipe-content {
+    display: flex;
+    flex-wrap: wrap;
     color: white;
+    padding: 50px;
+    justify-content: center;
+    gap: 15px;
 }
 
-.recipe-steps h2 {
+.recipe-content > * {
+    border: 2px solid gray;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.ingredients {
+    flex-basis: 20%;
+}
+
+.ingredients h2 {
     color: aqua;
+}
+
+.steps {
+    flex-basis: 75%;
 }
